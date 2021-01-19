@@ -8,8 +8,8 @@
     "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
   "repository": {
-    "type": "",
-    "url": ""
+    "type": "git",
+    "url": "git+https://github.com/pandeyvivek130/image_comparison_tool.git"
   },
   "author": "Vivek Pandey",
   "license": "ISC",
