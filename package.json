@@ -1,38 +1,29 @@
 {
   "name": "image_comparison_tool",
-  "version": "0.1.0",
-  "private": true,
-  "dependencies": {
-    "@testing-library/jest-dom": "^5.11.9",
-    "@testing-library/react": "^11.2.3",
-    "@testing-library/user-event": "^12.6.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "react-scripts": "4.0.1",
-    "web-vitals": "^0.2.4"
-  },
+  "type": "module",
+  "version": "1.0.0",
+  "description": "image_comparison_tool",
+  "main": "index.js",
   "scripts": {
-    "start": "react-scripts start",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "start": "nodemon --watch backend --exec node --experimental-modules backend/server.js"
   },
-  "eslintConfig": {
-    "extends": [
-      "react-app",
-      "react-app/jest"
-    ]
+  "repository": {
+    "type": "",
+    "url": ""
   },
-  "browserslist": {
-    "production": [
-      ">0.2%",
-      "not dead",
-      "not op_mini all"
-    ],
-    "development": [
-      "last 1 chrome version",
-      "last 1 firefox version",
-      "last 1 safari version"
-    ]
+  "author": "Vivek Pandey",
+  "license": "ISC",
+  "dependencies": {
+    "async": "^3.2.0",
+    "aws-sdk": "^2.828.0",
+    "dotenv": "^8.2.0",
+    "express": "^4.17.1",
+    "express-async-handler": "^1.1.4",
+    "mongoose": "^5.11.9"
+  },
+  "devDependencies": {
+    "eslint": "^7.16.0",
+    "eslint-plugin-react": "^7.21.5",
+    "nodemon": "^2.0.6"
   }
 }
